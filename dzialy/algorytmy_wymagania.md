@@ -134,6 +134,21 @@ Dla i = 1,2 … n
 </b>
 </details>
 
+#Ten kod działa na pewno poprawnie
+print("Podaj liczbe do sprawdzenia")
+
+def is_prime(x):
+        for i in range(2, x):
+            if (x % i) == 0:
+                print("Podana liczba nie jest pierwsza")
+                break
+            else:
+                print("podana liczba jest pierwsza")
+                break
+x = int(input())
+is_prime(x)  
+ 
+
 <a name="is_perfect"></a>
 ## Sprawdzanie, czy liczba jest liczbą doskonała [⬆️](#)
 <details><summary>Rozwiń</summary>
